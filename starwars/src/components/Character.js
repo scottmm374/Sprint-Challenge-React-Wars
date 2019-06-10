@@ -3,11 +3,11 @@ import React from 'react';
 
 function Character(props) {
     return (
-        <div className="charCard">
+        <div className="char-card">
             <p><strong>created: </strong>{props.characterInfo.created}</p>
             <p><strong>edited: </strong>{props.characterInfo.edited}</p>
             <p><strong>eyeColor: </strong>{props.characterInfo.eye_color}</p>
-            <p><strong>films: </strong><a href="{props.characterInfo.films}" /></p>
+            <p><strong>films: </strong>{props.characterInfo.films}</p>
             <p><strong>gender: </strong>{props.characterInfo.gender}</p>
             <p><strong>hairColor: </strong>{props.characterInfo.hair_color}</p>
             <p><strong>height: </strong>{props.characterInfo.height}</p>

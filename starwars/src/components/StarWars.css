@@ -1,14 +1,19 @@
 
-.charCard {
-    background: white;
-    display: flex;
-    max-height: 200Px;
-    margin: 1rem;
-    width: 200px;
 
-}
 
 .charList {
-    display: flex;
-    flex-wrap: wrap;
+  border: 2px solid red;
+  padding-left: 97px;
 }
+
+.char-card  {
+    background: white;
+    max-height: 500px;
+    width:90%;
+    padding-left: 21px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    border: 1px solid blue;
+    margin-bottom: 10px;
+  };

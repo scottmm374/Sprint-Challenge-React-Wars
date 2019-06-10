@@ -2,13 +2,16 @@
   text-align: center;
   height: 100%;
   width: 100%;
-  /* display: flex;
-  flex-wrap: wrap; */
-
+  display: flex;
+  flex-wrap: wrap;
+ 
 }
 
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  border: 1px solid red;
+  margin-top: 40px;
+ 
 }
 
