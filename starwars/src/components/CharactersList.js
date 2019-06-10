@@ -5,10 +5,11 @@ function CharactersList (props) {
     console.log(props)
     return (
         <div>
-            {props.starwarsChars.map(char => {
+            {props.charInfo.map(item => {
                 return (
                     <Character
-                        characterInfo={char}
+                        characterInfo={item}
+                        // key={index}
                      />   
                 );
              })}
