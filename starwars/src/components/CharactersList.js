@@ -8,7 +8,7 @@ function CharactersList(props) {
             {props.charInfo.map(item => {
                 return (
                     <Character
-                        characterInfo={item} 
+                        characterInfo={item}
                         key={item.name}
                     />
                 );

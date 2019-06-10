@@ -1,5 +1,5 @@
 
-
+/* Main character card styling */
 
 .char-list {
   padding-left: 80px;
@@ -16,8 +16,5 @@
     margin-bottom: 31px;
     border-radius: 91px;
     box-shadow: 4px 10px 10px #1d1b1b;
-  };
-
- .char-name {
-      font-size: 20px;
   }
+
