@@ -1,19 +1,23 @@
 
 
 
-.charList {
-  padding-left: 97px;
+.char-list {
+  padding-left: 80px;
 }
 
 .char-card  {
-    /* background: rgb(117, 105, 105); */
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(121,38,9,1) 63%, rgba(167,148,136,1) 90%, rgba(198,222,220,1) 99%, rgba(0,212,255,1) 100%);
     max-height: 500px;
-    width:90%;
-    padding-left: 21px;
+    width: 97%;
+    padding-left: 6px;
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 42px;
     text-align: center;
-    margin-bottom: 25px;
-    border-radius: 167px;
+    margin-bottom: 31px;
+    border-radius: 91px;
+    box-shadow: 4px 10px 10px #1d1b1b;
   };
+
+ .char-name {
+      font-size: 20px;
+  }
