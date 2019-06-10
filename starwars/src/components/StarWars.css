@@ -1,0 +1,14 @@
+
+.charCard {
+    background: white;
+    display: flex;
+    max-height: 200Px;
+    margin: 1rem;
+    width: 200px;
+
+}
+
+.charList {
+    display: flex;
+    flex-wrap: wrap;
+}
